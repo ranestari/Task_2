@@ -78,12 +78,7 @@ public class Mahasiswa {
         
     }
     
-    public char cekNilai(Mahasiswa m){
-        
-        }
-    }
-
-
+   
     
     
     
