@@ -10,6 +10,7 @@ package task_2;
  * @author Ranestari Sastriani
  */
 
+
 public class Mahasiswa {
     
     
