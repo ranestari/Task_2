@@ -89,7 +89,7 @@ public class Mahasiswa {
             } 
   }
 }
-  return Nilai[i];      
+  return Nilai[i];     
         }
  }
 
