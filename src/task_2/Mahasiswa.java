@@ -9,15 +9,16 @@ package task_2;
  *
  * @author Ranestari Sastriani
  */
-import java.util.Scanner;
+
 public class Mahasiswa {
     
-    Scanner sc=new Scanner(System.in);
+    
     private String Nama;
     private String NIM;
     private String Status;
     private char[] Nilai;
     int i;
+    
     
     Mahasiswa(){
         this.Status="Tidak Lulus";
@@ -78,11 +79,24 @@ public class Mahasiswa {
         
     }
     
-   
-    
-    
-    
-    
-    
-    
+    public char cekNilai(Mahasiswa m){
+        
+        for (int z = 0; z < Nilai.length; z++) { 
+        for (int j = z + 1 ; j < Nilai.length; j++) {
+        if (Nilai[z]==Nilai[j]) { 
+            
+          return Nilai[z];
+          
+     } 
+  }
 }
+  return Nilai[i];      
+        }
+ }
+
+
+ 
+    
+    
+    
+      
