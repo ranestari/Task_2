@@ -80,14 +80,13 @@ public class Mahasiswa {
     }
     
     public char cekNilai(Mahasiswa m){
-        
-        for (int z = 0; z < Nilai.length; z++) { 
-        for (int j = z + 1 ; j < Nilai.length; j++) {
-        if (Nilai[z]==Nilai[j]) { 
-            
-          return Nilai[z];
-          
-     } 
+        int n=0;
+        for (int z = 0; z < Nilai.length; z++) {            
+            for (int j = z + 1 ; j < Nilai.length; j++) {
+            if (Nilai[z]==Nilai[j]) { 
+                n=n+1;
+                return Nilai[z];   
+            } 
   }
 }
   return Nilai[i];      
