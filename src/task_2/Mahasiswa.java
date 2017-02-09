@@ -76,20 +76,26 @@ public class Mahasiswa {
     
     @Override
     public String toString(){ 
-        return NIM+" "+Nama+" "+Status+" Nilai="+new String (Nilai);
+        return NIM+" "+Nama+" "+Status+" Nilai="+ new String (Nilai);
         
     }
     
     public char cekNilai(Mahasiswa m){
-        int n=0;
-        for (int z = 0; z < Nilai.length; z++) {            
-            for (int j = z + 1 ; j < Nilai.length; j++) {
-            if (Nilai[z]==Nilai[j]) { 
-                n=n+1;
-                return Nilai[z];   
-            } 
-  }
-}
+        int n;
+        for (char z = 'A'; z <= 'E'; z++) 
+        {            
+            for (int j = 0 ; j < i; j++) 
+            {
+                if (z == Nilai[j])
+                { 
+                    for (int k = 0; k<=i; k++)
+                    {
+                        if (z == m.Nilai[k])
+                            return z;
+                    }
+                } 
+            }
+        }
   return Nilai[i];     
         }
  }
