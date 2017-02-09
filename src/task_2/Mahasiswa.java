@@ -6,6 +6,8 @@
 package task_2;
 
 /**
+ *  NIM = 1301154553
+ *  Nama = Ranestari Sastriani
  *
  * @author Ranestari Sastriani
  */
@@ -18,7 +20,7 @@ public class Mahasiswa {
     private String NIM;
     private String Status;
     private char[] Nilai;
-    int i;
+    private int i;
     
     
     Mahasiswa(){
